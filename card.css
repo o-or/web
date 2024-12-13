@@ -1,0 +1,82 @@
+    /* style.css */
+    #body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh; /* Chiều cao màn hình */
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+        padding: 10px 20px 20px;
+    }
+    
+    .card-container {
+        display: flex;
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: center;    /* Căn giữa theo chiều dọc */
+        gap: 20px;              /* Khoảng cách giữa các thẻ */
+        width: 100%;
+    }
+    
+    .card-button {
+        text-decoration: none;
+        width: 300px;
+        height: 200px;
+        background-image: url('https://via.placeholder.com/300x200');
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .card-1 {
+        background-image: url('hthy.jpg');
+    }
+
+    .card-2 {
+        background-image: url('bdb.jpg');
+    }
+
+    .card-3 {
+        background-image: url('bmi.jpg');
+    }
+
+    .card-4 {
+        background-image: url('shoe.jpg');
+    }
+
+    .card-5 {
+        background-image: url('login.jpg');
+    }
+
+    .card-button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .card-content h2 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .card-content p {
+        margin: 5px 0 0;
+        font-size: 1rem;
+        opacity: 0.9;
+    }

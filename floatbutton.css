@@ -1,0 +1,30 @@
+.posts {
+            display: flex;
+            align-items: center;
+            overflow-x: auto;
+            gap: 16px;
+            padding: 20px 0;
+        }
+        .post {
+            flex: 0 0 320px;
+            border: 1px solid #e0e0e0;
+            border-radius: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.566);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .post:hover {
+            transform: translateY(-5px);
+        }
+       .post img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .post-content {
+            padding: 15px;
+			
+        }
+		.post p{
+			text-align:center;
+		}

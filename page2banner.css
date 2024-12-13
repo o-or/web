@@ -1,0 +1,14 @@
+.gym-image {
+				background-image: url("bmi.jpg");
+				filter: brightness(50%)
+				background-color: #cccccc;
+				height: 800px;
+				background-position: 10% 20%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+				border-top-left-radius: 25px;
+				border-top-right-radius: 25px;
+				border-bottom-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+			}

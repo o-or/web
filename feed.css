@@ -1,0 +1,56 @@
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.video-feed {
+    gap: 80px;
+}
+
+.video-feed h2 {
+    text-align: center;
+}
+
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    margin: 20px 0;
+}
+
+.video-item {
+    border: 1px solid #dddddd00; /* Đường viền tùy chọn */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.video-item img {
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.video-item h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.video-item p {
+    font-size: 14px;
+    color: #555;
+}
+

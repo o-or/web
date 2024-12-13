@@ -1,0 +1,55 @@
+#mySidenav a {
+    position: fixed; 
+    left: -110px; 
+    margin-top: 100px;
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+#mySidenav a:hover {
+  left: 0; 
+}
+
+
+#about {
+  top: 20px;
+  background-color: rgb(51, 51, 51);
+}
+
+#blog {
+  top: 80px;
+  background-color: rgb(51, 51, 51); 
+}
+
+#projects {
+  top: 140px;
+  background-color: rgb(51, 51, 51); 
+}
+
+#contact {
+  top: 200px;
+  background-color: rgb(51, 51, 51);
+}
+
+#a5 {
+  top: 260px;
+  background-color: rgb(51, 51, 51);
+}
+
+#a6 {
+  top: 320px;
+  background-color: rgb(51, 51, 51);
+}
+
+#a7 {
+  top: 380px;
+  background-color: rgb(51, 51, 51);
+}
+

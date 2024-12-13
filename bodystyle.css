@@ -1,0 +1,129 @@
+			.gym-text {
+				text-align: left;
+				position: absolute;
+				top: 50%;
+				left: 20%;
+				transform: translate(-50%, -50%);
+				color: rgb(255, 255, 255);
+			}
+
+            .p {
+                font-size: 15px;
+            }
+
+            .container {
+ 				display: grid;
+ 				align-items: center; 
+ 				grid-template-columns: 1fr 1fr 1fr;
+ 				column-gap: 5px;
+			}
+
+			.container-2 {
+				position: relative;
+				align-items: center;
+				
+				color: white;
+			  }
+
+			img {
+  				max-width: 100%;
+  				max-height:100%;
+				border-radius: 10px;
+			}
+
+            .img-c {
+                display: inline-block;
+                width: 60%;
+            }
+
+			.text {
+ 				font-size: 20px;
+			}
+
+			.center {
+				margin: auto;
+  				padding: 10px;
+			}
+
+			.centered {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.text-image-button {
+            	display: inline-block;
+            	padding: 10px;
+            	background-color: #f0f0f0;
+            	border: 1px solid #ccc;
+            	cursor: pointer;
+        	}
+
+        	.text-image-button img {
+            	vertical-align: middle;
+            	margin-right: 5px;
+        	}
+
+            .button-image {
+				display: inline-block;
+                position: static;
+				align-items: center;
+				justify-content: center;
+            }
+
+			.footer {
+				background-color: #ccc;
+				
+			}
+
+			.window {
+				min-width: 1450px;
+			}
+
+			hr {
+				background-color: rgba(0, 0, 0, 0);
+				width: 70%;
+			}
+
+			p {
+				z-index: 1;
+			}
+
+			.inline-section {
+				margin-left: 100px; 
+				padding: 10px; 
+				backdrop-filter: blur(50px);
+				border: solid #ffffff4d;
+				mix-blend-mode: screen;
+				border-radius: 0px;
+			}
+
+			.inline-section-2 {
+				text-align: center;
+				border-radius: 0px;
+				padding: 50px;
+			}
+
+			.inblock-l {
+				border-top-left-radius: 75px;
+				border-top-right-radius: 20px;
+				border-bottom-right-radius: 75px;
+				border-bottom-left-radius: 20px;
+			}
+
+			.inblock-r {
+				border-top-left-radius: 20px;
+				border-top-right-radius: 75px;
+				border-bottom-right-radius: 20px;
+				border-bottom-left-radius: 75px;
+			}
+
+			.hide {
+				display: none;
+			}
+			  
+			.myDIV:hover + .hide {
+				display: block;
+				color: rgb(15, 15, 15);
+			}

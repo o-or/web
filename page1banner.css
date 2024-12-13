@@ -1,0 +1,56 @@
+.gym-image {
+				background-image: url("gmy.jpg");
+				background-color: #cccccc;
+				height: 700px;
+				background-position: 10% 50%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+				border-bottom-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+			}
+
+			.fade-img {
+				position: relative; 
+			}
+			
+			.fade-img:after {
+				content:""; 
+				position: absolute; 
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: linear-gradient(to left ,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.842) 125%);
+				height: 100%;  
+				border-bottom-left-radius: 25px 25px;
+				border-bottom-right-radius: 25px 25px;
+			}
+
+			#myVideo {
+				width: 100%;
+				border-bottom-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+				
+			}
+
+			.bgdrop-1 {
+				background-image: linear-gradient(to bottom left, rgb(12, 177, 228), rgb(23, 116, 186));
+				backdrop-filter: blur(70px); 
+				padding: 80px; 
+				border-radius: 25px;
+			}
+
+			.bgdrop-2 {
+				background-image: linear-gradient(to bottom left, rgb(74, 92, 116), rgb(199, 205, 224));
+				backdrop-filter: blur(70px); 
+				padding: 80px; 
+				border-radius: 25px;
+			}
+
+			.bgdrop-3 {
+				background-image: linear-gradient(to bottom left, rgb(97, 47, 43), rgb(63, 45, 67)); 
+				backdrop-filter: blur(70px); 
+				padding: 80px; 
+				border-radius: 25px;
+			}
+			  

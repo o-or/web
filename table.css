@@ -1,0 +1,45 @@
+table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th, td {
+                border: 1px solid #646464;
+                padding: 8px;
+                text-align: center;
+            }
+            th {
+                background-color: #383838;
+                font-weight: bold;
+            }
+            tr {
+                background-color: #222222;
+            }
+            caption {
+                text-align: left;
+                font-weight: bold;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                font-size: 1.2em;
+            }
+            .gradient-text1 {
+				font-weight: bold;
+				font-size: 30px;
+				background: linear-gradient(to top right, #08ffc1 0%, #0ecfff 100%); 
+    			background-clip: text;
+    			color: transparent;
+			}
+            .gradient-text2 {
+				font-weight: bold;
+				font-size: 30px;
+				background: linear-gradient(to top right, #bdff08 0%, #0effb7 100%); 
+    			background-clip: text;
+    			color: transparent;
+			}
+            .gradient-text3 {
+				font-weight: bold;
+				font-size: 30px;
+				background: linear-gradient(to top right, #ff7708 0%, #efff0e 100%); 
+    			background-clip: text;
+    			color: transparent;
+			}

@@ -1,0 +1,28 @@
+.gym-image {
+				background-image: url("shoe.jpg");
+				filter: brightness(50%)
+				background-color: #cccccc;
+				height: 800px;
+				background-position: 10% 25%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+				border-bottom-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+			}
+
+            .fade-img {
+				position: relative; 
+			}
+			
+			.fade-img:after {
+				content:""; 
+				position: absolute; 
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: linear-gradient(to left ,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.904) 125%);
+				height: 100%;  
+				border-bottom-left-radius: 25px 25px;
+				border-bottom-right-radius: 25px 25px;
+			}
